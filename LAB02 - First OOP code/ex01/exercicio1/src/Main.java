@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Altura do segundo jogador: "+figurinha2.altura);
         System.out.println("Peso do segundo jogador: "+figurinha2.peso);
 
-        // Jogador 3
+
         Figurinha figurinha3 = new Figurinha();
         figurinha3.nome = "Sergio Agüero";
         figurinha3.dataNascimento = "2 de junho de 1988";
