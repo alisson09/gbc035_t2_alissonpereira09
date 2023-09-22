@@ -35,7 +35,7 @@ public class Main {
             System.out.print( jogadoresReservas[i] + ". " );
         }
 
-        
+
         System.out.println("\n\nSelecao 02\n");
         selecoes[1].setNomeSelecao("França");
 
