@@ -178,8 +178,19 @@ public class principal {
             v[i] = dados.nextInt();
         }
 
+        int maior = v[0], auxMaior;
+        for (int i = 1; i < 5; i++) {
+            auxMaior = v[i];
+            if (maior < auxMaior){
+                maior = auxMaior;
+            }
+        }
+
         for (int i = 0; i < v.length; i++) {
             v[i] = v[i]*2;
+            if ((v[i]/2) == maior){
+                v[i] = 100;
+            }
         }
 
         System.out.println("\nNotas normalizadas");
