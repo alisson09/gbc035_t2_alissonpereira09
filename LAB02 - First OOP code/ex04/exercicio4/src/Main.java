@@ -7,7 +7,7 @@ public class Main {
             selecoes[i] = new Selecao();
         }
 
-        // Selecao 1
+        
         System.out.println("Selecao 1\n");
         selecoes[0].setNomeSelecao("Espanha");
 
