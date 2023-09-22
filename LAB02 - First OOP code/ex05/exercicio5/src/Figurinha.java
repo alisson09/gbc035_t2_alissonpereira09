@@ -7,9 +7,9 @@ public class Figurinha {
     private float peso;
 
     public Figurinha(String p){
-        nome = "Sem nome declarado";
-        dataNascimento = " Sem data declarada";
-        posicao = "Sem posicao declarada";
+        nome = "Nenhum nome foi atribuido a este jogador";
+        dataNascimento = " Nenhuma data de nascimento foi atribuida a este jogador";
+        posicao = "Nenhuma posição foi atribuida a este jogador";
         peso = 0;
         altura = 0;
         pais = p;
